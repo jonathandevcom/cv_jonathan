@@ -1,5 +1,6 @@
 ﻿body {
     font-family: 'Open Sans', sans-serif;
+    font-size:1.1em;
     display: flex;
     flex-wrap: wrap;
     margin: 0 5% 0 5%;
@@ -16,7 +17,6 @@ header {
 
 .header_photo {
     background-color: #4FC3F7;
-
     text-align: center;
     padding: 20px 0 0 0;
     flex-basis: 26%;
@@ -47,6 +47,11 @@ header {
 
 
 /*aside*/
+
+
+#loisirs{
+    padding-top:240px;
+}
 
 
 aside {
@@ -110,7 +115,7 @@ section {
 .alignement_formation {
     width: 50%;
     min-width:200px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     border-top: 3px solid #4FC3F7;
 }
 
@@ -133,8 +138,7 @@ section {
 .fa-briefcase {
     color: #4FC3F7;
     padding-right: 20px;
- 
-}
+ }
 
 .align_experience {
     display: flex;
@@ -142,22 +146,22 @@ section {
 
 .alignement_experience {
     width: 50%;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     border-top: 3px solid #4FC3F7;
 }
 
 .contenu_experience1 {
-    height: 30%;
+    height: 26%;
     display: flex;
 }
 
 .contenu_experience2 {
-    height: 55%;
+    height: 59%;
     display: flex;
 }
 
 .contenu_experience3 {
-    height: 15%;
+
     display: flex;
 }
 
@@ -179,7 +183,7 @@ section {
 
 .alignement_recommandation {
     width: 50%;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
     border-top: 3px solid #4FC3F7;
 }
 
@@ -210,13 +214,31 @@ aside {
 .header_photo {
     min-width: 250px;
 }
+.fa-user-graduate {
+    padding-left: 20px;
+    }
+
+ .fa-briefcase {
+    padding-left: 20px;
+ }
+
+.alignement_recommandation {
+    padding-left: 20px;
 }
 
-@media screen and (max-width: 1000px) {
- 
-body{
-    flex-direction:column;
+#loisirs {
+    padding-top: initial;
 }
+
+}
+
+
+@media screen and (max-width: 1000px) {
+
+body {
+    flex-direction: column;
+    font-size: 1em;
+    }
 
 header {
     flex-direction: column;
@@ -232,10 +254,29 @@ section{
 }
 
 h1, h2, h3 {
-text-align: center;
+    text-align: center;
 }
   
 aside{
     order:1;
+}
+}
+
+@media screen and (max-width: 600px) {
+
+body {
+    font-size: 1.1em;
+}
+
+.fas fa-user-graduate {
+    padding-right: 15px;
+}
+
+.fas fa-briefcase {
+    padding-left: 15px;
+}
+
+.fas fa-pen-nib {
+    padding-left: 15px;
 }
 }
