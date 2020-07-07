@@ -112,9 +112,16 @@ section {
     display: flex;
 }
 
-.alignement_formation {
+.alignement_formation_gauche {
     width: 50%;
     min-width:200px;
+    padding-bottom: 50px;
+    border-top: 3px solid #4FC3F7;
+}
+
+.alignement_formation_droite {
+    width: 50%;
+    min-width: 200px;
     padding-bottom: 50px;
     border-top: 3px solid #4FC3F7;
 }
@@ -144,7 +151,13 @@ section {
     display: flex;
 }
 
-.alignement_experience {
+.alignement_experience_gauche {
+    width: 50%;
+    padding-bottom: 50px;
+    border-top: 3px solid #4FC3F7;
+}
+
+.alignement_experience_droite {
     width: 50%;
     padding-bottom: 50px;
     border-top: 3px solid #4FC3F7;
@@ -181,7 +194,13 @@ section {
     display: flex;
  }
 
-.alignement_recommandation {
+.alignement_recommandation_gauche {
+    width: 50%;
+    padding-bottom: 50px;
+    border-top: 3px solid #4FC3F7;
+}
+
+.alignement_recommandation_droite {
     width: 50%;
     padding-bottom: 50px;
     border-top: 3px solid #4FC3F7;
@@ -222,9 +241,12 @@ aside {
     padding-left: 20px;
  }
 
-.alignement_recommandation {
-    padding-left: 20px;
-}
+    .alignement_recommandation_droite {
+        padding-left: 20px;
+    }
+    .alignement_recommandation_gauche {
+        padding-left: 20px;
+    }
 
 #loisirs {
     padding-top: initial;
@@ -279,4 +301,26 @@ body {
 .fas fa-pen-nib {
     padding-left: 15px;
 }
+    .alignement_recommandation_gauche {
+        width: 30%;
+            }
+
+    .alignement_recommandation_droite {
+        width: 70%;
+    }
+    .alignement_experience_gauche {
+        width: 30%;
+    }
+
+    .alignement_experience_droite {
+        width: 70%;
+    }
+
+    .alignement_formation_gauche {
+        width: 30%;
+    }
+
+    .alignement_formation_droite {
+        width: 70%;
+    }
 }
