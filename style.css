@@ -105,23 +105,16 @@ section {
 
 .fa-user-graduate {
        color: #4FC3F7;
-       padding-right:20px;   
+       padding-right:2%;   
 }
 
 .align {
     display: flex;
 }
 
-.alignement_formation_gauche {
+.alignement_formation {
     width: 50%;
     min-width:200px;
-    padding-bottom: 50px;
-    border-top: 3px solid #4FC3F7;
-}
-
-.alignement_formation_droite {
-    width: 50%;
-    min-width: 200px;
     padding-bottom: 50px;
     border-top: 3px solid #4FC3F7;
 }
@@ -144,20 +137,14 @@ section {
 
 .fa-briefcase {
     color: #4FC3F7;
-    padding-right: 20px;
+    padding-right: 2%;
  }
 
 .align_experience {
     display: flex;
 }
 
-.alignement_experience_gauche {
-    width: 50%;
-    padding-bottom: 50px;
-    border-top: 3px solid #4FC3F7;
-}
-
-.alignement_experience_droite {
+.alignement_experience {
     width: 50%;
     padding-bottom: 50px;
     border-top: 3px solid #4FC3F7;
@@ -187,20 +174,14 @@ section {
 
 .fa-pen-nib {
     color: #4FC3F7;
-    padding-right: 20px;
+    padding-right: 2%;
 }
 
 .align_recommandation {
     display: flex;
  }
 
-.alignement_recommandation_gauche {
-    width: 50%;
-    padding-bottom: 50px;
-    border-top: 3px solid #4FC3F7;
-}
-
-.alignement_recommandation_droite {
+.alignement_recommandation {
     width: 50%;
     padding-bottom: 50px;
     border-top: 3px solid #4FC3F7;
@@ -234,19 +215,16 @@ aside {
     min-width: 250px;
 }
 .fa-user-graduate {
-    padding-left: 20px;
+    padding-left: 5%;
     }
 
  .fa-briefcase {
-    padding-left: 20px;
+    padding-left: 5%;
  }
 
-    .alignement_recommandation_droite {
-        padding-left: 20px;
-    }
-    .alignement_recommandation_gauche {
-        padding-left: 20px;
-    }
+.alignement_recommandation {
+    padding-left: 5%;
+}
 
 #loisirs {
     padding-top: initial;
@@ -281,46 +259,12 @@ h1, h2, h3 {
   
 aside{
     order:1;
-}
+
 }
 
 @media screen and (max-width: 600px) {
 
-body {
+section {
     font-size: 1.1em;
 }
-
-.fas fa-user-graduate {
-    padding-right: 15px;
-}
-
-.fas fa-briefcase {
-    padding-left: 15px;
-}
-
-.fas fa-pen-nib {
-    padding-left: 15px;
-}
-    .alignement_recommandation_gauche {
-        width: 30%;
-            }
-
-    .alignement_recommandation_droite {
-        width: 70%;
-    }
-    .alignement_experience_gauche {
-        width: 30%;
-    }
-
-    .alignement_experience_droite {
-        width: 70%;
-    }
-
-    .alignement_formation_gauche {
-        width: 30%;
-    }
-
-    .alignement_formation_droite {
-        width: 70%;
-    }
 }
